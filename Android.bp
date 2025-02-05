@@ -296,34 +296,9 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-    name: "VZWAPNLib",
-    owner: "google",
-    apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-}
-
-android_app_import {
     name: "AICorePrebuilt",
     owner: "google",
     apk: "proprietary/product/priv-app/AICorePrebuilt/AICorePrebuilt.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
-    name: "AppDirectedSMSService",
-    owner: "google",
-    apk: "proprietary/product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk",
     preprocessed: true,
     presigned: true,
     dex_preopt: {
@@ -473,32 +448,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "HotwordEnrollmentOKGoogleFUSIONPro",
-    owner: "google",
-    apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleFUSIONPro/HotwordEnrollmentOKGoogleFUSIONPro.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
-    name: "HotwordEnrollmentXGoogleFUSIONPro",
-    owner: "google",
-    apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleFUSIONPro/HotwordEnrollmentXGoogleFUSIONPro.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
     name: "OemDmTrigger",
     owner: "google",
     apk: "proprietary/product/priv-app/OemDmTrigger/OemDmTrigger.apk",
@@ -624,19 +573,6 @@ android_app_import {
     name: "EuiccSupportPixelPermissions",
     owner: "google",
     apk: "proprietary/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
-android_app_import {
-    name: "MyVerizonServices",
-    owner: "google",
-    apk: "proprietary/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk",
     preprocessed: true,
     presigned: true,
     dex_preopt: {
